@@ -61,7 +61,7 @@ do
 done
 
 
-#rm -rf .seriously-nopeeking
+rm -rf .seriously-nopeeking
 
 echo "Your VMs are up"
 echo "subnet: $(ip -4 addr | grep "vboxnet0" | grep -oP '(?<=inet\s)\d+(\.\d+){3}')/24"
