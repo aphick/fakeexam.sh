@@ -39,7 +39,6 @@ do
 	then
 		echo "extracting vms"
 		7za -y e $file -o.seriously-nopeeking/ &>/dev/null
-		#rm $file
 	fi
 done
 echo "done extracting"
