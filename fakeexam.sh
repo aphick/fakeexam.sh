@@ -44,7 +44,7 @@ done
 echo "done extracting"
 
 virtualbox &
-a=3
+a=1
 for file in .seriously-nopeeking/*
 do
 	ext="${file##*.}"
